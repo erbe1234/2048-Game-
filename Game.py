@@ -204,7 +204,7 @@ def check_win(grid):
 
 def main():
     """
-    Hauptspielschleife, die  Logik und das Rendering koordiniert.
+    Hauptspielschleife, die   die Logik und das Rendering koordiniert.
     """
     clock = pygame.time.Clock()  # Steuerung der Bildrate
     grid = [[0] * GRID_SIZE for _ in range(GRID_SIZE)]  # Initialisiert das Gitter
